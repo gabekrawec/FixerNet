@@ -1,0 +1,107 @@
+/*******w******** 
+    
+    Name: Gabriel Krawec
+    Date: 2024-01-29
+    Description: CSS for Assignment 3
+
+****************/
+body{
+    text-align: center;
+    background-color: #7A3B69;
+    font-family: 'Shrikhand', serif;
+}
+body p{
+    font-family: 'Laila', serif;
+}
+#container{
+    width: 600px; 
+    margin: 0px auto 0px auto; 
+}
+header{
+    background-color: #D7DEDC;
+    border: 2px solid #9A879D;
+    padding: 10px;
+}
+header h1{
+    color: #563440;
+}
+header a{
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #54428E;
+}
+.post{
+   word-wrap: break-word;
+   background-color: #D7DEDC;
+   border: 5px solid #9A879D;
+   border-radius: 25px;
+   color: #563440;
+   margin: 10px;
+   padding: 10px;
+   
+}
+.post:link a h2{
+    text-decoration: none;
+    color: #563440;
+}
+.post a:hover, .post a:link h2:hover, .post a:visited h2:hover, header a:hover{
+    color: #BEC5AD;
+}
+.post a:link{
+     text-decoration: none;
+}
+.post a:link h2{
+    text-decoration: none; color: #563440;
+}
+.post a:visited h2{
+     text-decoration: none; color: #563440;
+}
+.post p a{
+    color: #54428E;
+    font-size: small;
+}
+
+.timestamp{
+    font-size: small;
+    margin-top: -15px;
+}
+
+.inputs{
+    display: block;
+    margin: 5px;
+    text-decoration: underline;
+}
+input{
+    font-family: 'Laila', serif;
+    border: 5px solid #9A879D;
+    border-radius: 5px;
+}
+
+form{
+    width: 600px; 
+    margin: 0px auto 0px auto; 
+}
+textarea{
+    resize: none;
+    margin: 10px, 10px, 0px, 10px;
+    font-family: 'Laila', serif;
+    border: 5px solid #9A879D;
+    border-radius: 5px;
+}
+label{
+    color: #563440;
+    font-weight: bold;
+}
+
+button{
+    background-color: #9A879D;
+    border: 2px solid #7A3B69;
+    color: #563440;;
+    font-family: 'Shrikhand', serif;
+}
+button:hover{
+    background-color: #7A3B69;
+}
+
+
